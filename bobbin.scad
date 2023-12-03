@@ -1,4 +1,4 @@
-use <libraries/utils.scad>
+use <openscad-repeat_on_pattern/repeat_on_pattern.scad>
 
 $fn=20;
 
@@ -83,7 +83,7 @@ module bobbin_flange(
     
         circle(d=diameter);
         
-        repeat_around_circle(
+        repeat_on_circle(
             radius=diameter/3,
             num_instances=num_holes,
             angle_offset = 0,

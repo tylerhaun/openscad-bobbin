@@ -1,0 +1,3 @@
+[submodule "openscad-repeat_on_pattern"]
+	path = openscad-repeat_on_pattern
+	url = git@github.com:tylerhaun/openscad-repeat_on_pattern.git
